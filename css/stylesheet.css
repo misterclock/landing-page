@@ -39,6 +39,7 @@ body{
     display: flex;
     flex-wrap: wrap;
     margin-top: -25px;
+    gap: 10px;
 }
 
 .card{
@@ -49,9 +50,11 @@ body{
     justify-content: center;
     align-items: center;
     flex-grow: 1;
+    flex-wrap: wrap;
+    flex-basis: 500px;
     gap: 10px;
     padding: 10px;
-
+    border-radius: 20px;
 }
 
 .member-title{
@@ -66,6 +69,14 @@ body{
     font-size: 36px;
     font-weight: lighter;
     color: #1F2937;
+}
+
+.footer{
+    background-color: #3F3D7A;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
 }
 
 .header, .header-footing{
