@@ -59,11 +59,23 @@ body{
 
 }
 
+.lyrics-session{
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-weight: lighter;
+    color: #1F2937;
+}
+
 .header, .header-footing{
     color: white;
     background-color: #1F2937;
 }
 
+.lyrics-session >img{
+    width: 100%;
+}
 
 .header-footing > img{
     height: 400px;
